@@ -1,0 +1,42 @@
+@media (max-width: 800px) {
+  .block{
+    width:99%;
+  }
+}
+@media (max-width: 700px) {
+  .columnsItem .type{
+    opacity: 1;
+  }
+  .columnsItem:before{
+    left: 0;
+    top: 0;
+  }
+  .block{
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    height: auto;
+    padding: 10px;
+    position: relative;
+  }
+  .block .preview{
+    width: 100%;
+  }
+  .block .items{
+    width: 100%;
+    min-width: 0;
+    height: 70px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+  .blockItem{
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+  }
+  .blockItem figurecaption{
+    width: 80px;
+    height: 27px;
+    font-size: .7em;
+  }
+}
