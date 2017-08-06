@@ -1,6 +1,9 @@
 # Layout switch
 ### A simple news app made with React
 
+## Live demo
+http://layout-switch.surge.sh
+
 ## Getting started
 (if you don't have Yarn just replace 'yarn' with 'npm' in the commands)
 
